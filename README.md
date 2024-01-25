@@ -7,6 +7,6 @@ This is the term project of the course "Comp 303 Computer Architecture" in Fall 
 
 In this project, we were asked to implement Single Cycle Processor using 32-bit MIPS Instructions, create our own instruction and test both our processor and custom instruction.
 
-The project was created with Logism which can be reached HERE.
+The project was created with Logism which can be reached from http://www.cburch.com/logisim/.
 
 More details about the project can be read in Project Description and Project Report.
