@@ -1,0 +1,17 @@
+addi $0, $0, 0 # index A
+addi $1, $1, 0 # index B
+addi $2, $2, 0 # index C
+addi $9, $9, 12# 4th spot
+addi $7, $7, 2
+beq $9, $0, 17 #17 -> exit
+lw $3, 0($0)	
+lw $4, 0($1)
+add $5, $4, $3
+mult $5, $5, $7
+mflo $6
+sw $6, 0($2)     #C[i] = (A[i] + B[i]) * 2
+addi $0, $0, 1 # index A
+addi $1, $1, 1 # index B
+addi $2, $2, 1 
+addi $9, $9, 4
+j 6
